@@ -1,1 +1,191 @@
-slidesnsneakers.com
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reventa de Tenis - Tu Tienda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .producto {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .producto:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .producto img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .producto h2 {
+      font-size: 1.2em;
+      margin: 15px 0 10px 0;
+    }
+    .producto p {
+      color: #333;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    .producto button {
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background 0.2s;
+    }
+    .producto button:hover {
+      background: #219150;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Reventa de Tenis
+  </header>
+  <section class="productos">
+    <div class="producto">
+      <img src="https://placehold.co/180x120?text=Tenis+1" alt="Tenis 1">
+      <h2>Nike Air Max</h2>
+      <p>$2,500 MXN</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="https://placehold.co/180x120?text=Tenis+2" alt="Tenis 2">
+      <h2>Adidas Yeezy</h2>
+      <p>$5,000 MXN</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="https://placehold.co/180x120?text=Tenis+3" alt="Tenis 3">
+      <h2>Puma RS-X</h2>
+      <p>$1,800 MXN</p>
+      <button>Comprar</button>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reventa de Tenis - Tu Tienda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .producto {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .producto:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .producto img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .producto h2 {
+      font-size: 1.2em;
+      margin: 15px 0 10px 0;
+    }
+    .producto p {
+      color: #333;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    .producto button {
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background 0.2s;
+    }
+    .producto button:hover {
+      background: #219150;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Reventa de Tenis
+  </header>
+  <section class="productos">
+    <div class="producto">
+      <img src="https://placehold.co/180x120?text=Tenis+1" alt="Tenis 1">
+      <h2>Nike Air Max</h2>
+      <p>$2,500 MXN</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="https://placehold.co/180x120?text=Tenis+2" alt="Tenis 2">
+      <h2>Adidas Yeezy</h2>
+      <p>$5,000 MXN</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="https://placehold.co/180x120?text=Tenis+3" alt="Tenis 3">
+      <h2>Puma RS-X</h2>
+      <p>$1,800 MXN</p>
+      <button>Comprar</button>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+</body>
+</html>
